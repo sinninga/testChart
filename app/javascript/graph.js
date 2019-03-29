@@ -10,7 +10,7 @@ var myChart = new Chart(ctx, {
         labels: ['January', 'February', 'March', 'April', 'May', 'June']
     },
     options: {
-        showLines: true // disable for all datasets
+        showLines: true, // disable for all datasets
     }
 });
 
