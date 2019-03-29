@@ -1,11 +1,13 @@
 <h1>Graph</h1>
-<div class="chart-container" style="position: relative; height:40vh; width:80vw">
+<div class="chart-container">
   <canvas id="myChart"></canvas>
 </div>
-<div>
+<div class="container" >
+  <div>
   <% @persons.each do |person| %>
     <p><%= person.name %></p>
     <p><%= person.money %></p>
     <% end %>
+    </div>
 </div>
 
