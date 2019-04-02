@@ -1,6 +1,5 @@
 import Chart from 'chart.js';
 
-const money = [4, 8, 4, 5, 6]
 var gente = gon.persons;
 console.log(gente);
 console.log(gente[0].name);
@@ -14,7 +13,7 @@ console.log(peopleMoney);
 var data = {
   labels: peopleNames,
   datasets: [{
-    label: "People's Money",
+    label: "Adam's Data",
     backgroundColor: "rgba(255,99,132,0.2)",
     borderColor: "rgba(255,99,132,1)",
     borderWidth: 2,

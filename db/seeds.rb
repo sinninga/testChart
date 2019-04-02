@@ -20,11 +20,15 @@ persons_attributes = [
   },
   {
     name:         'Will',
-    money:        5
+    money:        6
   },
   {
     name:         'Kevin',
     money:        5
+  },
+  {
+    name:         'Richard',
+    money:        1
   },
   {
     name:         'Craig',
